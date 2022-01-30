@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -23,22 +24,8 @@ nav > a {
   text-align: center;
 }
 nav > a:hover{
-  background-color: #333828;
-}
-a {
-  text-decoration: none;
-  color: #333D29;
-}
-a:hover{
+  background-color: #A5A6A4;
   color: white;
-}
-
-.box{
-  margin: auto;
-  width: 75%;
-  height: 100%;
-  border-left: 0.3px solid rgba(255, 255, 255, 0.137);
-  border-right:  0.3px solid rgba(255, 255, 255, 0.137);
 }
 
 .container{
@@ -47,7 +34,7 @@ a:hover{
   max-width: 100%;
   height: 600px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   align-self: center;
   border-bottom: 0.3px solid rgba(255, 255, 255, 0.137);
@@ -61,6 +48,7 @@ a:hover{
   justify-content: center;
   text-align: center;
   font-size: 20px;
+  margin-left: 5%;
 }
 
 .container-text > h2{
@@ -72,6 +60,7 @@ a:hover{
 .image {
   display: flex;
   justify-content: center;
+  margin-left: 5%;
 }
 
 .image >img {
@@ -79,10 +68,14 @@ a:hover{
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.295);
 }
 
-.personal_info {
+.box{
+  margin: auto;
+  width: 70%;
+  height: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
+
 strong {
   font-weight: 600;
   color: #4e704e;
